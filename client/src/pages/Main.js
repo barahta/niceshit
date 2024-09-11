@@ -20,8 +20,30 @@ function Main () {
 
     return (
         <div className={style.bodymain}>
-            ads
-
+            <div className={style.logoaminate}>
+                <div className={style.shitlogo}>
+                    <div className={style.shitsix}></div>
+                    <div className={style.shitfive}></div>
+                    <div className={style.shitfour}></div>
+                    <div className={style.shitthree}></div>
+                    <div className={style.shittwo}></div>
+                    <div className={style.shitone}></div>
+                </div>
+                <div className={style.name}>
+                    <div className={style.nicename}>
+                        <p>N</p>
+                        <p>I</p>
+                        <p>C</p>
+                        <p>E</p>
+                    </div>
+                    <div className={style.shitname}>
+                        <p>S</p>
+                        <p>H</p>
+                        <p>I</p>
+                        <p>T</p>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }
